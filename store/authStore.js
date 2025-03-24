@@ -2,7 +2,7 @@ import { create } from "zustand";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Constants from "expo-constants";
 
-export const API_URL =  "https://d74c-2402-3a80-400d-702a-c574-9397-7da0-4548.ngrok-free.app";
+export const API_URL =  "https://expo-app-backend-lxzy.onrender.com";
 
 export const useAuthStore = create((set) => ({
   user: null,
